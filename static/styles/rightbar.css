@@ -1,0 +1,12 @@
+.rightbar{
+	background: white;
+	height: 70rem;
+	border-style: solid;
+	grid-column: 11/13;
+	
+	
+}
+.info{
+	border-style: solid;
+	border-width: 2px;
+}
