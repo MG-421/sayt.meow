@@ -25,7 +25,7 @@ html {
 	display: none;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 1000px) {
 	.nav-btn {
 		display: flex;
 		font-size: 2em;
@@ -34,11 +34,17 @@ html {
 		padding-inline: 0.8rem;
 		padding-top: 2px;
 		display: block;
+		cursor: pointer;
 	}
 	.nav-list{
 		display: none;
 	}
 	.rightbar{
 		display: none;
+	}
+	.drop:hover .nav-list{
+		display: block;
+		background-color: #669800;
+		position: absolute;
 	}
 }
