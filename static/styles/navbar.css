@@ -2,5 +2,18 @@ html {
 	background-color: black;
 }
 .navbar {
+	display: flex;
 	background:  linear-gradient(50deg, #A8FF00 0%, #D6D628 100%);
+}
+.nav-list{
+	display: flex;
+}
+.nav-list a{
+	display: block;
+	text-decoration: none;
+	padding: 1em;
+}
+.nav-list a:hover{
+	display: flex;
+	background-color: rgba(79, 130, 9, 0.477);
 }
