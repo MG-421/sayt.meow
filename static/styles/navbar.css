@@ -17,7 +17,31 @@ html {
 	color: black;
 	margin: 0em;
 }
-.nav-list a:hover{
+.nav-list a:hover {
 	display: flex;
 	background-color: rgba(79, 130, 9, 0.477);
+}
+.nav-btn {
+	display: none;
+}
+
+@media (max-width: 426px) {
+	.nav-btn {
+		display: flex;
+		font-size: 2em;
+		background-color: #A8FF00;
+		border: none;
+		padding-inline: 0.8rem;
+		padding-top: 2px;
+		display: block;
+	}
+	.nav-list{
+		display: none;
+	}
+	.rightbar{
+		display: none;
+	}
+	.main-container{
+		text-align: center;
+	}
 }

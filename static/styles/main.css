@@ -4,10 +4,35 @@
 	margin-top: 5rem ;
 	margin-left: 2rem ;
 	border-style: solid;
+	background-color: aliceblue;
 
+}
+.card img{
+	width: 18em;
+
+}
+.card h5{
+	padding: 0.5rem;
+}
+.card p{
+	padding: 0.5rem;
+	padding-bottom: 1.5rem;
+	padding-top: 0.1rem;
+	padding-left: 1rem;
 }
 .btn{
 	background-color: blue;
+	color: black;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
+	margin-top: 1em;
+	margin-left: 1rem;
+	text-decoration: none;
+}
+.btn:hover{
+	background-color: rgb(84, 84, 255);
 }
 .card-cont{
 	background: black;
@@ -18,7 +43,7 @@
 	grid-column: 1/11;
 	
 }
-@media (max-width: 1000px){
+@media (max-width: 900px){
 	.card-cont{
 		background: black;
 		display: grid;
@@ -27,7 +52,7 @@
 		width: 50 px;
 	}
 }
-@media (max-width: 800px){
+@media (max-width: 650px){
 	.card-cont{
 		background: black;
 		display: grid;
