@@ -4,14 +4,18 @@ html {
 .navbar {
 	display: flex;
 	background:  linear-gradient(50deg, #A8FF00 0%, #D6D628 100%);
-}
+	margin: 0em;
+}	
 .nav-list{
 	display: flex;
+	margin: 0em;
 }
 .nav-list a{
 	display: block;
 	text-decoration: none;
 	padding: 1em;
+	color: black;
+	margin: 0em;
 }
 .nav-list a:hover{
 	display: flex;
